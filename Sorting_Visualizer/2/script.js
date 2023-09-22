@@ -9,7 +9,6 @@ const spacing=(myCanvas.width-margin*2)/n;
 const ctx=myCanvas.getContext("2d");
 
 const maxColumnHeight=200;
-
 init();
 
 let audioCtx=null;
