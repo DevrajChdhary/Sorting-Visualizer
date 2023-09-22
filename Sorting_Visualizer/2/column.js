@@ -11,7 +11,7 @@ class Column{
             b:150
         }
     }
-
+    
     moveTo(loc,yOffset=1,frameCount=20){
         for(let i=1;i<=frameCount;i++){
             const t=i/frameCount;
