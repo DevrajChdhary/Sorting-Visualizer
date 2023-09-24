@@ -36,7 +36,6 @@ function playNote(freq,type){
     osc.connect(node);
     node.connect(audioCtx.destination);
 }
-
 function init(){
     for(let i=0;i<n;i++){
         array[i]=Math.random();
